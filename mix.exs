@@ -24,7 +24,7 @@ defmodule YelpEx.Mixfile do
   defp deps do
     [{:oauth2, "~> 0.8"},
      {:poison, "~> 3.0"},
-     {:httpoison, "~> 0.10.0"},
+     {:httpoison, "~> 0.10"},
      {:ex_doc, "~> 0.14", only: :dev}]
   end
 
